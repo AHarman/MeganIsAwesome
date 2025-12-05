@@ -1,0 +1,138 @@
+@keyframes spin {
+    from {
+        transform: translateX(-15%) rotate(90deg);
+    }
+
+    to {
+        transform: translateX(-15%) rotate(450deg);
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        color: hsl(0, 100%, 50%)
+    }
+
+    10% {
+        color: hsl(36, 100%, 50%)
+    }
+    20% {
+        color: hsl(72, 100%, 50%)
+    }
+    30% {
+        color: hsl(108, 100%, 50%)
+    }
+    40% {
+        color: hsl(144, 100%, 50%)
+    }
+    50% {
+        color: hsl(180, 100%, 50%)
+    }
+    60% {
+        color: hsl(216, 100%, 50%)
+    }
+    70% {
+        color: hsl(252, 100%, 50%)
+    }
+    80% {
+        color: hsl(288, 100%, 50%)
+    }
+    90% {
+        color: hsl(324, 100%, 50%)
+    }
+    100% {
+        color: hsl(360, 100%, 50%)
+    }
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    overflow: visible;
+    padding-top: 5%;
+}
+
+.meg {
+    animation: spin 2s infinite linear;
+    transform-origin: 65%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 0.25rem;
+}
+
+h1 span {
+    animation: rainbow 5s infinite linear;
+}
+
+h1 span:nth-of-type(1) {
+    animation-delay: -0.15s;
+}
+
+h1 span:nth-of-type(2) {
+    animation-delay: -0.3s;
+}
+
+h1 span:nth-of-type(3) {
+    animation-delay: -0.45s;
+}
+
+h1 span:nth-of-type(4) {
+    animation-delay: -0.60s;
+}
+
+h1 span:nth-of-type(5) {
+    animation-delay: -0.75s;
+}
+
+h1 span:nth-of-type(6) {
+    animation-delay: -1.05s;
+}
+
+h1 span:nth-of-type(7) {
+    animation-delay: -1.20s;
+}
+
+h1 span:nth-of-type(8) {
+    animation-delay: -1.5s;
+}
+
+h1 span:nth-of-type(9) {
+    animation-delay: -1.65s;
+}
+
+h1 span:nth-of-type(10) {
+    animation-delay: -1.8s;
+}
+
+h1 span:nth-of-type(11) {
+    animation-delay: -1.95s;
+}
+
+h1 span:nth-of-type(12) {
+    animation-delay: -2.1s;
+}
+
+h1 span:nth-of-type(13) {
+    animation-delay: -2.25s;
+}
+
+h1 span:nth-of-type(14) {
+    animation-delay: -2.40s;
+}
