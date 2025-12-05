@@ -90,10 +90,19 @@ h1 span:first-of-type {
     transform: translateY(10%);
 }
 
-
 h1 span:last-of-type {
     display: inline-block;
     transform: translateY(10%) scaleX(-1);
+}
+
+@media (max-width: 800px) {
+    h1 span:first-of-type {
+        transform: translateY(20%);
+    }
+
+    h1 span:last-of-type {
+        transform: translateY(20%) scaleX(-1);
+    }
 }
 
 h1 span:nth-of-type(2) {
