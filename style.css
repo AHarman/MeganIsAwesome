@@ -60,10 +60,10 @@ header {
 
 main {
     display: flex;
-    justify-content: center;
+    align-items: center;
     height: 100%;
     overflow: visible;
-    padding-top: 5%;
+    flex-direction: column;
 }
 
 .meg {
@@ -76,8 +76,9 @@ main {
 }
 
 h1 {
-    font-size: 5rem;
     margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-size: 8vw;
 }
 
 h1 span {
